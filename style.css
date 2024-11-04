@@ -1,0 +1,41 @@
+html,
+body{
+    text-align:center;
+    background: linear-gradient(0deg, rgba(45,196,178,1) 14%, rgba(91,252,233,1) 46%, rgba(45,196,178,1) 84%);
+    height:100%;
+}
+
+/*
+=================================================
+SEARCH
+=================================================
+*/
+form{
+    width:100%;
+    max-width:600px;
+    margin:0 auto;
+ }
+ input{
+    width:100%;
+    font-size:32px;
+    margin:5px 0;
+    border:10px solid orange;
+    padding:10px;
+    outline:none;
+    display:inline-block;
+ }
+ .search-bar{
+    width:80%;
+    font-family:  "Share Tech Mono", monospace;
+    background:linear-gradient(90deg, rgba(238,159,31,1) 14%, rgba(255,207,130,1) 45%, rgba(238,159,31,1) 84%);
+ }
+ .submit-button{
+    width:15%;
+    background:#fa9218;
+    color:#FFF;
+ }
+ h1{
+    font-family: "Comic Neue", cursive;
+    font-size: 70px;
+    color: #fff
+ }
